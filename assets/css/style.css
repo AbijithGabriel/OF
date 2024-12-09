@@ -457,6 +457,7 @@ body {
 
 .hero .container {
   display: grid;
+  /* gap: 70px; */
   gap: 70px;
 }
 
