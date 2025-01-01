@@ -79,21 +79,21 @@ addEventOnElem(window, "scroll", headerActive);
 
 // easycode
 // Modal functionality
-const contactBtn = document.querySelector(".btn-primary");
-const modal = document.getElementById("contactModal");
-const closeBtn = document.getElementById("closeModal");
+// const contactBtn = document.querySelector(".btn-primary");
+// const modal = document.getElementById("contactModal");
+// const closeBtn = document.getElementById("closeModal");
 
-contactBtn.addEventListener("click", function (event) {
-  event.preventDefault();
-  modal.style.display = "block";
-});
+// contactBtn.addEventListener("click", function (event) {
+//   event.preventDefault();
+//   modal.style.display = "block";
+// });
 
-closeBtn.addEventListener("click", function () {
-  modal.style.display = "none";
-});
+// closeBtn.addEventListener("click", function () {
+//   modal.style.display = "none";
+// });
 
-window.addEventListener("click", function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-});
+// window.addEventListener("click", function (event) {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   }
+// });
