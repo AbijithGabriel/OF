@@ -61,7 +61,7 @@
         <nav class="navbar" data-navbar>
           <ul class="navbar-list">
             <li class="navbar-item">
-              <a href="#ho" class="navbar-link" data-nav-link>Home</a>
+              <a href="index.html" class="navbar-link" data-nav-link>Home</a>
             </li>
 
             <li class="navbar-item">
@@ -133,19 +133,20 @@
         >
           <div class="container">
             <form
-              action="mailto:your-email@example.com"
-              method="post"
-              enctype="text/plain"
-              class="contact-form"
-            >
+              action="https://api.web3forms.com/submit"
+              method="post">
+              <!-- enctype="text/plain"
+              class="contact-form" -->
+            
+            <input type="hidden" name="access_key" value="5b9fd7b6-eae3-4016-b1ee-defada6388a6">
+
               <h2 class="headline-sm" id="contact-label">Get in touch</h2>
 
               <p class="contact-text body-md">
                 Our friendly team would love to hear from you.
               </p>
-
               <div class="wrapper">
-                <div>
+                <div>                 
                   <label for="name" class="label">First name</label>
                   <input
                     type="text"
@@ -229,8 +230,8 @@
                   <div>
                     <p class="label-lg">Mail</p>
 
-                    <a href="tel:abijithgabriel@gmail.com" class="body-lg"
-                      >info@abijithgabriel</a
+                    <a href="tel:oxyfoxy.in@gmail.com" class="body-lg"
+                      >oxyfoxy.in@gmail.com</a
                     >
                   </div>
                 </li>
@@ -322,19 +323,6 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-      function SendEmail() {
-        Email.send({
-          Host: "smtp.gmail.com",
-          Username: "ajay4567a@gmail.com",
-          Password: "password",
-          To: "them@website.com",
-          From: "you@isp.com",
-          Subject: "This is the subject",
-          Body: "And this is the body",
-        }).then((message) => alert(message));
-      }
-    </script>
+ 
   </body>
 </html>
