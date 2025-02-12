@@ -97,3 +97,23 @@ addEventOnElem(window, "scroll", headerActive);
 //     modal.style.display = "none";
 //   }
 // });
+
+
+//new event
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   const navToggler = document.querySelector("[data-nav-toggler]");
+//   const navbar = document.querySelector("[data-navbar]");
+//   const overlay = document.querySelector("[data-overlay]");
+
+//   navToggler.addEventListener("click", function() {
+//     navbar.classList.toggle("active");
+//     overlay.classList.toggle("active");
+//   });
+
+//   overlay.addEventListener("click", function() {
+//     navbar.classList.remove("active");
+//     overlay.classList.remove("active");
+//   });
+// });
